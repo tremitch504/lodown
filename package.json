@@ -1,0 +1,29 @@
+{
+  "name": "lodown-tremitch",
+  "version": "1.4.0",
+  "description": "my lodown library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tremitch504/lodown.git"
+  },
+  "author": "Trevon Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tremitch504/lodown/issues"
+  },
+  "homepage": "https://github.com/tremitch504/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.1.3",
+    "sinon": "^9.2.0"
+  }
+}
