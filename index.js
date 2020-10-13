@@ -276,7 +276,17 @@ module.exports.map = map;
  * @param {string} property: a string that represents a key.
  * 
  * @returns {array}: a new array with the property's values from the objects inside the given array.
- * 
+ */
+ 
+ function pluck(array, property){
+    let newArr = [];
+    map(array, function(element, i, array){
+        newArr.push(array[i][property]);
+    });
+    return newArr;
+    
+}
+module.exports.pluck = pluck;
 
 
 
